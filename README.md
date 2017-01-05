@@ -13,8 +13,34 @@ git clone https://github.com/miguelcanot/angular2.git
 cd angular2
 
 # Instalar el repo con npm
-npm instalar
+npm install
 
 # Iniciar el servidor
 npm start
+```
+## Otros comandos
+
+### build files
+```bash
+# desarrollo
+npm run build:dev
+# producción (jit)
+npm run build:prod
+# AoT
+npm run build:aot
+```
+
+### watch and build files
+```bash
+npm run watch
+```
+
+### run unit tests
+```bash
+npm run test
+```
+
+### watch and run our tests
+```bash
+npm run watch:test
 ```
