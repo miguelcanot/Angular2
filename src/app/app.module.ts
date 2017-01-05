@@ -4,11 +4,7 @@ import { HttpModule } from '@angular/http';
 import { NgModule, ApplicationRef } from '@angular/core';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 
-import {
-  removeNgStyles,
-  createNewHosts,
-  createInputTransfer
-} from '@angularclass/hmr';
+import { removeNgStyles, createNewHosts, createInputTransfer } from '@angularclass/hmr';
 
 /*
  * Platform and Environment providers/directives/pipes
@@ -17,7 +13,7 @@ import { ENV_PROVIDERS } from './environment';
 import { ROUTES } from './app.routes';
 // App is our top level component
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about';
+import { InicioComponent } from './inicio';
 import { NoContentComponent } from './no-content';
 
 import '../styles/styles.scss';
@@ -30,7 +26,7 @@ import '../styles/headings.css';
   bootstrap: [ AppComponent ],
   declarations: [
     AppComponent,
-    AboutComponent,
+    InicioComponent,
     NoContentComponent,
   ],
   imports: [ // import Angular's modules

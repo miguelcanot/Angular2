@@ -1,16 +1,13 @@
-import {
-  Component,
-  OnInit
-} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'about',
+  selector: 'inicio',
   styles: [`
   `],
-  templateUrl: "./about.component.html"
+  templateUrl: "./inicio.component.html"
 })
-export class AboutComponent implements OnInit {
+export class InicioComponent implements OnInit {
 
   public localState: any;
   constructor(
