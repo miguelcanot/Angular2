@@ -13,8 +13,11 @@ import { ENV_PROVIDERS } from './environment';
 import { ROUTES } from './app.routes';
 // App is our top level component
 import { AppComponent } from './app.component';
+
 import { InicioComponent } from './inicio';
 import { NoContentComponent } from './no-content';
+
+import { HolaMundoComponent } from './hola-mundo';
 
 import '../styles/styles.scss';
 import '../styles/headings.css';
@@ -28,6 +31,8 @@ import '../styles/headings.css';
     AppComponent,
     InicioComponent,
     NoContentComponent,
+    HolaMundoComponent,
+    
   ],
   imports: [ // import Angular's modules
     BrowserModule,
